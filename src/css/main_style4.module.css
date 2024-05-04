@@ -1,0 +1,227 @@
+.main-container {
+    margin: 20px auto;
+    width: 90%;
+    direction: rtl;
+
+}
+
+.navbar {
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #f4f1f1;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    height: 80%;
+    list-style: none;
+    font-size: 1.3rem;
+    background-color: chocolate;
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: rgb(229, 126, 53);
+}
+
+.nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    height: 100%;
+    color: #fff;
+}
+
+.main-box {
+    /* width: 80%; */
+    /* border: 1px solid #edecec; */
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.main-box h2 {
+    padding-bottom: 5px;
+    border-bottom: 4px solid red;
+    display: inline-block;
+}
+
+.container,
+.students-container,
+.masters-container,
+.lessons-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table-uni,
+.table-student,
+.table-lesson,
+.table-master {
+    width: 700px;
+    border: 1px solid rgb(198, 198, 198);
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-unit-selection {
+    width: 400px;
+    border: 1px solid rgb(198, 198, 198);
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-lesson tr:first-child,
+.table-unit-selection tr:first-child,
+.table-uni tr:first-child,
+.table-student tr:first-child,
+.table-master tr:first-child {
+    margin: 15px 0;
+    color: rgb(31, 154, 24);
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.table-lesson td,
+.table-unit-selection td,
+.table-uni td,
+.table-student td,
+.table-master td
+ {
+    border: 1px solid #ddd7d7;
+    margin: 10px 2px;
+    padding: 10px 0;
+}
+
+.lesson-form-box,
+.unit-form-box,
+.student-form-box,
+.master-form-box {
+    width: 400px;
+    background-color: rgb(127, 197, 255);
+    padding: 10px 20px;
+    border-radius: 13px;
+}
+
+.master-form-box{
+background-color: aquamarine;
+}
+
+.lesson-form-box{
+background-color: rgb(188, 247, 27);
+}
+
+.unit-form-box{
+background-color: rgb(224, 224, 223);
+}
+
+.form-group {
+    margin: 15px auto;
+}
+
+.form-group label {
+    display: block;
+    margin: 7px 0;
+    padding-right: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4e4d4d;
+}
+
+.form-group input {
+    height: 35px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border: 2px solid rgb(2, 60, 187);
+}
+
+.form-group button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(7, 49, 166);
+    border: none;
+    color: #fafafa;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: rgb(32, 79, 207);
+}
+
+.delete-btn {
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+select:not(:-internal-select-author-button) {
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1.1rem;
+    -webkit-rtl-ordering: logical;
+    color: #fff;
+    background-color: rgb(18, 102, 247);
+    cursor: pointer;
+    white-space: pre;
+    border: none;
+    outline:none;
+    border-radius: 10px;
+    padding: 7px 15px;
+}
+/* #select-student{
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+} */
+
+.btn-complate{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(6, 181, 6);
+    color: #fdfafa;
+    border: none;
+    margin: 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-complate:hover{
+    background-color: rgb(6, 163, 6);
+}
+
+.help-unit{
+    font-weight: 700;
+}
+
+.help-unit>span{
+    color: red;
+}

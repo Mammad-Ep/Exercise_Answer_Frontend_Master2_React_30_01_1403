@@ -1,0 +1,105 @@
+{
+  "masters": [
+    {
+      "id": "1",
+      "personnel_number": 1250,
+      "name": "علی",
+      "family": "قربانی",
+      "teaching_lessons": [
+        "دانش خانواده",
+        "دین و زندگی",
+        "معارف اسلامی"
+      ]
+    },
+    {
+      "id": "9a7c",
+      "personnel_number": 9028,
+      "name": "رضا",
+      "family": "کوهی",
+      "teaching_lessons": [
+        "زبان انگیسی",
+        "زبان فرانسه"
+      ]
+    },
+    {
+      "id": "08ed",
+      "personnel_number": 48555,
+      "name": "حسن",
+      "family": "فتحی",
+      "teaching_lessons": [
+        "دین و زندگی",
+        "علوم ومعارف"
+      ]
+    },
+    {
+      "id": "1ca3",
+      "personnel_number": 79654,
+      "name": "ماریا",
+      "family": "یزدی",
+      "teaching_lessons": [
+        "ریاضی",
+        "حسابان",
+        "کاشی",
+        "زبان"
+      ]
+    },
+    {
+      "id": "e6ff",
+      "personnel_number": 6699,
+      "name": "حسین",
+      "family": "کامرانی",
+      "teaching_lessons": [
+        "حسابان",
+        "هندسه2"
+      ]
+    },
+    {
+      "id": "e076",
+      "personnel_number": 82195,
+      "name": "مهرداد",
+      "family": "رئیسی",
+      "teaching_lessons": [
+        "دوبلوری"
+      ]
+    },
+    {
+      "id": "1f65",
+      "personnel_number": 77226,
+      "name": "حسین",
+      "family": "احمدی",
+      "teaching_lessons": [
+        "ریاضی پیش دانشگاهی"
+      ]
+    },
+    {
+      "id": "f99e",
+      "personnel_number": 12851,
+      "name": "ساسان",
+      "family": "رضایی",
+      "teaching_lessons": [
+        "اصول برنامه نویسی1",
+        "اصول برنامه نویسی2"
+      ]
+    },
+    {
+      "id": "ef99",
+      "personnel_number": 86237,
+      "name": "رضا",
+      "family": "سوسنی",
+      "teaching_lessons": [
+        "شبکه کامپیوتری1",
+        "شبکه کامپیوتری2"
+      ]
+    },
+    {
+      "id": "97b9",
+      "personnel_number": 10335,
+      "name": "لیلا",
+      "family": "معتمد",
+      "teaching_lessons": [
+        "زمین شناسی1",
+        "زمین شناسی2"
+      ]
+    }
+  ]
+}
